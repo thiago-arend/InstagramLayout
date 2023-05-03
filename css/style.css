@@ -109,6 +109,30 @@ ion-icon {
     right: 5px;
 }
 
+.timeline {
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.post {
+    margin-bottom: 60px;
+}
+
+.post .cab {
+    height: 52px;
+    background-color: pink;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post .footer {
+    height: 60px;
+    background-color: lightgreen;
+}
+
 .sidebar {
     background-color: lightblue;
     width: 321px;
