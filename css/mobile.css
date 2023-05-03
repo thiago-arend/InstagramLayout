@@ -1,0 +1,19 @@
+@media(max-width:935px) {
+    .container {
+        background-color: red;
+        flex-direction: column;
+    }
+    .main {
+        background-color: green;
+        margin: 0 auto;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+
+@media(max-width:614px) {
+    .container, .main {
+        width: 100%;
+    }
+}

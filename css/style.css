@@ -64,7 +64,6 @@ ion-icon {
 
 .container {
     width: 935px;
-    height: 600px;
     margin: 0 auto;
     margin-top: 88px;
 
@@ -73,7 +72,6 @@ ion-icon {
 
 .main {
     width: 614px;
-    height: 1200px;
 }
 
 .stories {
