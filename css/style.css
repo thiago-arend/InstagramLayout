@@ -153,7 +153,90 @@ ion-icon {
 }
 
 .sidebar {
-    background-color: lightblue;
     width: 321px;
-    height: 300px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 11px;
+    color: #C7C7C7;
+    margin: 15px 25px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 11px;
+    color: #C7C7C7;
+    margin: 0 25px;  
+}
+
+.sidebar > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.sidebar > div:nth-child(3) {
+    padding: 25px;
+}
+
+.imagem-perfil-sugestao {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.perfil > div p:nth-child(1) {
+    color: #262626;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.perfil > div p:nth-child(2) {
+    color: #8E8E8E;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.perfil > img {
+    margin-right: 10px;
+}
+
+.perfil-sugestao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nickname-sugestao-perfil {
+    color: #262626;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.status-sugestao-perfil {
+    color: #8E8E8E;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.seguir {
+    color: #139EF2;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.perfil-sugestao div:nth-child(1) {
+    display: flex;
 }
